@@ -9,6 +9,7 @@
 | Code  | Description   |
 | :---  | ---:         |
 | `pw`  | print working directory   |
+| `pwd`     | show current working directory |
 | `ls` | list of files and folders         |
 | `cd`  | change directory |
 | `mkdir`   | make directory    | 
@@ -43,7 +44,7 @@
 | Check modified files |  `git status` |
 | In cases of "untracked file" when checking modified files | `git add` [name].txt then `git status`|
 | Commiting to the changes| `git commit -m` "add [name].txt"|
-| Adding more changes | `git add` . then `git commit -m` "add ..."
+| Adding more changes | `git add .` then `git commit -m` "add ..."
 | Check history of repository so far and to find ID of the commit | `git log` |
 | To exit history of repository | press "q" |
 | Undo a specific commit | `git revert` [ID of commit] |
